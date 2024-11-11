@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pgadmin
+data:
+  db_url: "postgres-service"
+  admin_email: "boatengkwasi0303@gmail.com"
